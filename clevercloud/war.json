@@ -7,7 +7,9 @@
       "container": "TOMCAT8",
 "war" : [
 {
-"file" : "Ed-News.war"
+"file" : "Ed-News.war",
+"context" : "/Ed-News/",
+ "checkMe": "/Ed-News/index.jsp"
 }
 ]
 
