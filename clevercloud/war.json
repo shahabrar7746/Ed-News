@@ -1,0 +1,15 @@
+{
+  "build": {
+    "type": "maven",
+    "goal": "install"
+  },
+"deploy": {
+      "container": "TOMCAT8",
+"war" : [
+{
+"file" : "Ed-News.war"
+}
+]
+
+}
+}
