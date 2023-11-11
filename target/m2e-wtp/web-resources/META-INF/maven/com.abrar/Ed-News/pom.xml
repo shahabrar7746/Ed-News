@@ -47,4 +47,17 @@
     </plugins>
     <finalName>Ed-News</finalName>
   </build>
+        
+  <properties>
+	  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <mainClass>com.enterprise.mainPacket.MainApp</mainClass>
+     <java.version>17</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+     
+ 
+ 
+  
+</properties>
+
 </project>
